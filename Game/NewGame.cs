@@ -1,4 +1,6 @@
-﻿namespace GrpcPokemon
+﻿using GrpcPokemon.Game.Pokemon;
+
+namespace GrpcPokemon
 {
     /// <summary>
     /// Produce a simple routine for a player staring 
@@ -95,9 +97,10 @@
         {
             return new List<MenuItems>
 {
-                  new MenuItems("Bulbasaur", new Bulbasaur()),
+              new MenuItems("Bulbasaur", new Bulbasaur()),
               new MenuItems("Squirtle", new Squirtle()),
               new MenuItems("Charmander", new Charmander()),
+              new MenuItems("MewTwo", new Mewtwo()),
             };
         }
     }
