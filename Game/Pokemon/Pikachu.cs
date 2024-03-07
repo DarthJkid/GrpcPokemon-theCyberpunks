@@ -17,7 +17,8 @@ namespace GrpcPokemon.Game.Pokemon
             new Attacks {Name = "Thunder", BaseDamage = 110},
             new Attacks {Name = "Iron Tail", BaseDamage = 100},
             new Attacks {Name = "Thunderbolt", BaseDamage = 90},
-            new Attacks {Name = "Discharge", BaseDamage = 80}
+            new Attacks {Name = "Discharge", BaseDamage = 80},
+            new Attacks {}
         
         };
         public string DateOfCapture { get; set; } = DateTime.Now.ToString();
