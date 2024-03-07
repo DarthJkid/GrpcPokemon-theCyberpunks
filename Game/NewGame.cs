@@ -101,6 +101,7 @@ namespace GrpcPokemon
               new MenuItems("Squirtle", new Squirtle()),
               new MenuItems("Charmander", new Charmander()),
               new MenuItems("MewTwo", new Mewtwo()),
+              new MenuItems("Pikachu", new Pikachu())
             };
         }
     }
