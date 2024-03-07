@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace GrpcPokemon.Game.Pokemon
 {
-    internal class Groudon
+    internal class Groudon : IPokemon
     {
         public string ASCIIArt { get; set; } = GroudonArt.Draw();
         public string Name { get; set; } = "Groudon";
@@ -23,5 +23,6 @@ namespace GrpcPokemon.Game.Pokemon
             new Attacks {Name = "Fire Blast", BaseDamage = 110}
         };
         public string DateOfCapture { get; set; } = DateTime.Now.ToString();
+        public int Defense { get; set; } = 50;
     }
 }
