@@ -12,8 +12,8 @@
         public List<Attacks> Attacks { get; set; } = new List<Attacks> { 
             new Attacks {Name = "Solar Beam", BaseDamage = 120},
             new Attacks {Name = "Power Whip", BaseDamage = 120},
-            new Attacks {Name = "Take Down", BaseDamage = 90},
-            new Attacks {Name = "Seed Bomb", BaseDamage = 80}
+            new Attacks {Name = "Take Down", BaseDamage = 93},
+            new Attacks {Name = "Seed Bomb", BaseDamage = 87}
         };
     public string DateOfCapture { get; set; } = DateTime.Now.ToString();
         public int Defense { get; set; } = 50;
