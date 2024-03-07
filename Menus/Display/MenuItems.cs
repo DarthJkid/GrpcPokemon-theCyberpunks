@@ -1,11 +1,16 @@
-﻿namespace GrpcPokemon
+﻿using GrpcPokemon.Game.Pokemon;
+
+namespace GrpcPokemon
 {
   /// <summary>
   /// Store menu choices
   /// </summary>
   public class MenuItems
   {
-    public string Name { get; }
+        //private string v;
+       //private Groudon groudon;
+
+        public string Name { get; }
     public Action Selected { get; }
     public Func<CurrentUser> User { get; }
     public IPokemon Chosen { get; }
@@ -42,5 +47,6 @@
       Name = name;
       Chosen = chosen;
     }
-  }
+
+    }
 }

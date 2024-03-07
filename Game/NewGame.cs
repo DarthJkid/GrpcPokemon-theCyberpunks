@@ -102,8 +102,9 @@ namespace GrpcPokemon
               new MenuItems("Charmander", new Charmander()),
               new MenuItems("MewTwo", new Mewtwo()),
               new MenuItems("Pikachu", new Pikachu()),
-              new MenuItems("Kyogre", new Kyogre())
-              
+              new MenuItems("Kyogre", new Kyogre()),
+              //new MenuItems("Groudon", new Groudon())
+
 
             };
         }

@@ -11,7 +11,8 @@
       Electric = 5,
       Ice = 6,
       Steel = 7,
-      Psychic = 8
+      Psychic = 8,
+      Stone = 9
     }
   }
 }
