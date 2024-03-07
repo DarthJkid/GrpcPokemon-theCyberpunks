@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcPokemon";
+
+import "google/protobuf/empty.proto";
+
+package PokemonGame;
+
+service Pokemon
+{
+  rpc SendAttack(AttackInfo) returns (DamageDone);
+}
+
+message AttackInfo
+{
+	string trainerName = 1;
+	string pokemonName = 2;
+	string pokemonAttack = 3;
+	int32 pokemonAttackDamage = 4;
+}
+
+message DamageDone
+{
+	string trainerName = 1;
+	int32 damageDone = 2;
+	string messageResponse = 3;
+}
