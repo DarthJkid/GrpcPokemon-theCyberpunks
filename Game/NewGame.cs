@@ -103,6 +103,7 @@ namespace GrpcPokemon
               new MenuItems("MewTwo", new Mewtwo()),
               new MenuItems("Pikachu", new Pikachu()),
               new MenuItems("Kyogre", new Kyogre())
+              
 
             };
         }
